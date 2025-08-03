@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-Ai
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-3.5-turbo-0125
+          temperature: 0.5
+          max-tokens: 1024
